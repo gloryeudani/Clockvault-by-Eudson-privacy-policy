@@ -1,64 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - ClockVault by Eudson</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
-            background-color: #f9fafb;
-        }
-        .container {
-            background-color: #ffffff;
-            padding: 2.5rem;
-            border-radius: 1rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        }
-        h1 { color: #111; margin-top: 0; }
-        h2 { color: #222; margin-top: 2rem; border-bottom: 1px solid #eee; padding-bottom: 0.5rem; }
-        p { margin-bottom: 1rem; color: #4B5563; }
-        ul { color: #4B5563; }
-        li { margin-bottom: 0.5rem; }
-        strong { color: #111; text-transform: uppercase; font-size: 0.9em; letter-spacing: 0.05em; }
-        .footer { margin-top: 3rem; font-size: 0.9rem; color: #6b7280; text-align: center; }
-    </style>
+<html>
+<head><style>
+@font-face {
+  font-family: "Optimistic";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/fonts/OptimisticAI_VF_Optimized.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Optimistic Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/OptimisticMono_W_TextRegular.woff2") format("woff2");
+}
+:where(html) {
+  font-family: "Optimistic", system-ui, sans-serif;
+}
+:where(code, pre, kbd, samp) {
+  font-family: "Optimistic Mono", ui-monospace, monospace;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>ClockVault Max by Eudson</title>
+<link href="https://fonts.cdnfonts.com/css/garet" rel="stylesheet">
+<style>
+html, body{
+  height:100%;
+  margin:0;
+  overflow:hidden;
+}
+body{
+  font-family:'Garet', sans-serif;
+  background:#FFFFFF;
+  color:#000000;
+  height:100vh;
+  height:100dvh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.wrap{
+  width:100%;
+  max-width:420px;
+  height:100vh;
+  height:100dvh;
+  max-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding:12px 24px;
+  box-sizing:border-box;
+  text-align:center;
+}
+.logo{
+  width:132px;
+  height:132px;
+  margin:0 auto 4px;
+  display:block;
+  flex-shrink:0;
+}
+.logo svg{ width:100%; height:100%; }
+h1{
+  margin:0;
+  font-family:'Garet', sans-serif;
+  font-size:30px;
+  font-weight:800;
+  color:#0A3DFF;
+  line-height:1.1;
+  letter-spacing:0.3px;
+}
+.sub{
+  margin:4px 0 0;
+  font-size:13px;
+  color:#000;
+  opacity:0.75;
+  line-height:1.3;
+}
+.main{
+  margin:14px 0 0;
+  font-size:18px;
+  font-weight:800;
+  line-height:1.3;
+  color:#0A3DFF;
+}
+.desc{
+  margin:4px 0 0;
+  font-size:14px;
+  color:#000;
+  line-height:1.3;
+}
+.links{
+  margin:14px 0 0;
+  font-size:13px;
+  color:#000;
+  line-height:1.3;
+}
+.links a{
+  color:#0A3DFF;
+  text-decoration:none;
+  font-weight:700;
+}
+.links a:hover{ text-decoration:underline; }
+.small{
+  margin-top:18px;
+  font-size:11px;
+  color:#888;
+  line-height:1.3;
+}
+</style>
 </head>
 <body>
-    <div class="container">
-        <h1>Privacy Policy for ClockVault</h1>
-        <p><strong>Last Updated:</strong> May 2026</p>
+<div class="wrap">
 
-        <p>ClockVault ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how your information is collected, used, and protected when you use our mobile application (the "App").</p>
+  <div class="logo">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <!-- Changed from black to blue #0A3DFF (same blue as your reference) - everything else same -->
+    <rect x="145" y="160" width="230" height="230" rx="58" ry="58" fill="#0A3DFF"/>
+    <circle cx="260" cy="275" r="78" fill="none" stroke="#FFFFFF" stroke-width="15"/>
+    <line x1="260" y1="275" x2="260" y2="214" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round"/>
+    <line x1="260" y1="275" x2="317" y2="275" stroke="#FFFFFF" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="260" cy="275" r="8" fill="#FFFFFF"/>
+    <g transform="translate(345 142) rotate(18)">
+      <path d="M 8 2 V -14 C 8 -26 18 -36 32 -36 C 46 -36 56 -26 56 -14 V 2" fill="none" stroke="#FFFFFF" stroke-width="14.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M 8 2 V -14 C 8 -26 18 -36 32 -36 C 46 -36 56 -26 56 -14 V 2" fill="none" stroke="#0A3DFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="-3" y="-3" width="70" height="52" rx="12" fill="#FFFFFF"/>
+      <rect x="0" y="0" width="64" height="46" rx="9" fill="#0A3DFF"/>
+      <circle cx="32" cy="16" r="6.5" fill="#FFFFFF"/>
+      <path d="M28.5 20.5 L35.5 20.5 L37 30 L27 30 Z" fill="#FFFFFF"/>
+    </g>
+  </svg>
+  </div>
 
-        <h2>1. Data Collection and Storage</h2>
-        <p>ClockVault is an offline-first application designed to securely hide your photos and videos. <strong>We do not collect, transmit, or store your personal files on external servers.</strong></p>
-        <ul>
-            <li><strong>Vault Data:</strong> All photos, videos, and files you import into ClockVault are stored locally on your device.</li>
-            <li><strong>Settings & Preferences:</strong> Your vault PINs, app settings, and configurations are saved locally on your device.</li>
-        </ul>
+  <h1>ClockVault by Eudson</h1>
+  <p class="sub">Advanced World Clock Hybrid Vault with Pro Features</p>
 
-        <h2>2. Permissions Required</h2>
-        <p>To provide its core functionality, ClockVault requests the following device permissions:</p>
-        <ul>
-            <li><strong>Storage / Media:</strong> Required to allow you to select and import photos and videos into your secure vault, and to save restored files back to your device.</li>
-            <li><strong>Camera:</strong> Required for the "Intruder Selfie" feature to capture photos of individuals attempting to access your vault with an incorrect PIN. These images are stored entirely locally on your device and are never sent to our servers.</li>
-            <li><strong>Notifications:</strong> Required to provide you with app-related alerts.</li>
-        </ul>
+  <p class="main">Secure. Private. Offline. Discreet.</p>
+  <p class="desc"> ...... by Eudson, Where Privacy Meets Excellence </p>
 
-        <h2>3. Third-Party Services</h2>
-        <p>The App operates completely offline for its core functions and does not use any third-party tracking, analytics, or advertising frameworks that collect personal data over the internet.</p>
+  <p class="links">
+    Please read our <a href="privacy-policy.html">Privacy Policy</a> and <a href="app-ads.txt">app-ads.txt</a>. By continuing, you agree that ClockVault is offline-first.<br><br>
+  </p>
 
-        <h2>4. Data Security</h2>
-        <p>We take security seriously. Your files are hidden from the normal device gallery and protected by a PIN. In the event of device loss, factory reset, or app uninstallation without prior backup, your data may be permanently lost.</p>
+  <p class="small">© 2026 Eudson Studio • contacteudson@gmail.com</p>
 
-        <h2>5. Contact Us</h2>
-        <p>If you have any questions or concerns about our Privacy Policy, please contact us at: <a href="mailto:eudsonstudio@gmail.com" style="color: #2563eb;">eudsonstudio@gmail.com</a>.</p>
-    </div>
-</body>
+</div>
+<script>(function(){var loc=location.href.replace(/#.*$/,"");var ATTR_NAMES=["data-product-id","data-productid","data-product_id","product-id","productid","product_id","data-source-entity-id","source-entity-id","source_entity_id","data-product","data-metadata","data-meta"];var DATASET_KEYS=["productId","productid","product_id","sourceEntityId","sourceentityid","source_entity_id","product","metadata","meta"];function readProductId(value){if(typeof value!=="string"||value.length===0)return null;if(/^[0-9]{6,}$/.test(value))return value;var match=value.match(/(?:product(?:_|-)?id|source(?:_|-)?entity(?:_|-)?id)["'=:\s]+([0-9]{6,})/i);return match?match[1]:null}function extractProductId(start){for(var node=start;node&&node!==document.body;node=node.parentElement){for(var i=0;i<ATTR_NAMES.length;i++){var attrValue=node.getAttribute&&node.getAttribute(ATTR_NAMES[i]);var attrProductId=readProductId(attrValue);if(attrProductId)return attrProductId}var dataset=node.dataset||null;if(dataset){for(var j=0;j<DATASET_KEYS.length;j++){var dataValue=dataset[DATASET_KEYS[j]];var dataProductId=readProductId(dataValue);if(dataProductId)return dataProductId}}}return null}function isInlineMediaSlotElement(node){return !!(node&&node.getAttribute&&node.getAttribute("data-clippy-inline-media-slot")!==null)}function findInlineMediaSlot(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(isInlineMediaSlotElement(node))return node}return null}function readInlineMediaUrl(node){if(!node)return null;return node.getAttribute&&((node.getAttribute("data-clippy-inline-media-url")||node.getAttribute("data-url")||node.getAttribute("data_url")))||node.href||null}function stripHash(url){return String(url).replace(/#.*$/,"")}function urlsMatch(a,b){if(!a||!b)return false;try{return stripHash(new URL(a,loc).href)===stripHash(new URL(b,loc).href)}catch(_){return stripHash(a)===stripHash(b)}}function isFirstPartyReelUrl(value){try{var url=new URL(value,loc);if(url.protocol!=="https:")return false;var host=url.hostname.toLowerCase();var supported=host==="instagram.com"||host.endsWith(".instagram.com")||host==="facebook.com"||host.endsWith(".facebook.com");return supported&&/\/reels?\//i.test(url.pathname)}catch(_){return false}}function isInlineMediaUrlClick(node,href){var slot=findInlineMediaSlot(node);if(!slot)return false;var slotUrl=readInlineMediaUrl(slot);if(slotUrl)return urlsMatch(href,slotUrl);return isFirstPartyReelUrl(href)}function findDataHref(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(node.getAttribute){var href=node.getAttribute("data-href")||node.getAttribute("data-url");if(href)return{href:href,node:node}}}return null}var nativeOpen=window.open;window.open=function(url){if(parent!==window&&typeof url==="string"&&/^https?:\/\//.test(url)){parent.postMessage({type:"ecto:usercontent-link-click",href:url},"*");return null}return nativeOpen?nativeOpen.apply(window,arguments):null};document.addEventListener("click",function(e){var target=e.target instanceof Element?e.target:null;if(!target)return;if(parent===window)return;var a=target.closest?target.closest("a[href]"):null;if(a&&a.href&&/^https?:\/\//.test(a.href)&&a.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(a,a.href))return;var productId=extractProductId(target)||extractProductId(a);if(productId){e.preventDefault();parent.postMessage({type:"ecto-artifact-link-click",productId:productId},"*");return}e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:a.href},"*");return}var dataHref=findDataHref(target);if(dataHref&&/^https?:\/\//.test(dataHref.href)&&dataHref.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(dataHref.node,dataHref.href))return;e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:dataHref.href},"*")}},true)})();</script><script>(function(){var FOCUS_TYPE="ecto:artifact-focus-request";var CLOSE_TYPE="ecto:artifact-close-request";function focusArtifactDocument(){var body=document.body;if(!body)return;try{window.focus();}catch(e){}if(!body.hasAttribute("tabindex"))body.setAttribute("tabindex","-1");try{body.focus({preventScroll:true});}catch(e){try{body.focus();}catch(e2){}}}window.addEventListener("message",function(event){if(event.source!==window.parent)return;var data=event.data;if(!data||typeof data!=="object"||data.type!==FOCUS_TYPE)return;if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",focusArtifactDocument,{once:true});return;}focusArtifactDocument();});window.addEventListener("keydown",function(event){if(event.key!=="Escape")return;window.setTimeout(function(){if(event.defaultPrevented)return;window.parent.postMessage({type:CLOSE_TYPE},"*");},0);});})();</script></body>
 </html>
