@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms of Service for ClockVault by Eudson</title>
+<link href="https://fonts.cdnfonts.com/css/garet" rel="stylesheet">
+<style>
+body{margin:0;background:#F5F5F7;font-family:'Garet',sans-serif;color:#111;line-height:1.7}
+.card{max-width:800px;margin:20px auto;background:white;border-radius:16px;padding:28px 24px;box-shadow:0 4px 20px rgba(0,0,0,0.06);border:1px solid #EEE}
+h1{font-size:28px;font-weight:800;line-height:1.2;margin:0 0 16px}
+.bold{font-weight:800;font-size:16px;display:block;margin:26px 0 10px;color:#111}
+p{font-size:15px;color:#222;margin:0 0 14px}
+.small{font-size:14px;color:#333}
+ul{margin:8px 0 14px 20px}
+li{font-size:14px;margin-bottom:6px}
+a{color:#5B21FF;text-decoration:none}
+.footer{margin-top:30px;padding-top:20px;border-top:1px solid #EEE;font-size:13px;color:#666;text-align:center}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>Terms of Service for ClockVault by Eudson</h1>
+<p><b>Last Updated: October 2026</b></p>
+
+<span class="bold">1. Introduction & Acceptance</span>
+<p>By downloading, installing, or using ClockVault, you agree to these Terms of Service. These terms constitute a binding agreement between you and Eudson Studio.</p>
+<p>ClockVault by Eudson is developed, owned, and operated by Kelechi Glory Eudani (trading as / operating under Eudson Studio).</p>
+
+<span class="bold">2. Account & Usage Rules</span>
+<p>Users must be of legal age in their jurisdiction or have valid parent or guardian permission to download and use ClockVault. You are solely responsible for keeping your device secure and your vault passcode or PIN confidential.</p>
+<p>You agree not to misuse, reverse-engineer, or attempt to bypass the security features of the application.</p>
+
+<span class="bold">3. Membership & Payment Terms</span>
+<p>ClockVault Pro memberships are billed on a recurring basis (monthly or annually) through our secure payment partner, Paddle. Subscriptions renew automatically unless canceled prior to the end of the current billing cycle.</p>
+<p>We reserve the right to modify pricing with advance notice provided to active subscribers. All payments are processed securely by Paddle as Merchant of Record. ClockVault does not store your complete payment card details.</p>
+
+<span class="bold">4. Cancellation & Refund Policy</span>
+<p>You can cancel your subscription at any time through your membership management link or customer portal provided by Paddle.</p>
+<p>Refund requests within 14 days of purchase will be processed in accordance with applicable consumer laws and Paddle's refund guidelines. For full details, please see our <a href="refund-policy.html">Refund Policy</a>. To request a cancellation or refund, contact us at contacteudson@gmail.com.</p>
+
+<span class="bold">5. Offline-First, Tokenomics & Data Responsibility</span>
+<p>Since ClockVault is an offline-first vault application, users are solely responsible for backing up their own data. Local token balances (C tokens), daily streak progress, and vault files are stored entirely on your device.</p>
+<p>Eudson Studio does not store, host, or have access to your local token balances, streak data, vault files, or passcodes on external servers. If the app is uninstalled or app data is cleared without an offline backup, local token balances and streak progress cannot be recovered.</p>
+
+<span class="bold">6. Intellectual Property</span>
+<p>All app assets, logos, clock designs, user interface elements, animations, and software code belong exclusively to ClockVault by Eudson Studio. You may not copy, modify, distribute, or create derivative works without our prior written permission.</p>
+
+<span class="bold">7. Limitation of Liability</span>
+<p>ClockVault is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind. Eudson Studio is not liable for data loss (e.g., if a user forgets their vault passcode, resets their device, or loses hardware without a backup), device damage, or any indirect damages arising from the use of the app.</p>
+
+<span class="bold">8. Contact Information</span>
+<p>If you have any questions or require support regarding these Terms of Service or your subscription, please contact us at:</p>
+<p>
+<b>Developer Name:</b> Kelechi Glory Eudani<br>
+<b>Studio Name:</b> Eudson Studio<br>
+<b>Email:</b> contacteudson@gmail.com
+</p>
+
+<div class="footer">
+ClockVault by Eudson<br>
+© 2026 Eudson Studio. All rights reserved.<br><br>
+<a href="/">Home</a> | <a href="privacy-policy.html">Privacy Policy</a> | <a href="refund-policy.html">Refund Policy</a>
+</div>
+
+</div>
+</body>
+</html>
