@@ -31,12 +31,12 @@ a{color:#5B21FF;text-decoration:none}
 <p>You agree not to misuse, reverse-engineer, or attempt to bypass the security features of the application.</p>
 
 <span class="bold">3. Membership & Payment Terms</span>
-<p>ClockVault Pro memberships are billed on a recurring basis (monthly or annually) through our secure payment partner, Paddle. Subscriptions renew automatically unless canceled prior to the end of the current billing cycle.</p>
-<p>We reserve the right to modify pricing with advance notice provided to active subscribers. All payments are processed securely by Paddle as Merchant of Record. ClockVault does not store your complete payment card details.</p>
+<p>ClockVault Pro memberships are billed on a recurring basis (monthly or annually) through our secure payment partner, Paystack. Subscriptions renew automatically unless canceled prior to the end of the current billing cycle.</p>
+<p>We reserve the right to modify pricing with advance notice provided to active subscribers. All payments are processed securely by Paystack as our primary payment infrastructure provider. ClockVault does not store your complete payment card details.</p>
 
 <span class="bold">4. Cancellation & Refund Policy</span>
-<p>You can cancel your subscription at any time through your membership management link or customer portal provided by Paddle.</p>
-<p>Refund requests within 14 days of purchase will be processed in accordance with applicable consumer laws and Paddle's refund guidelines. For full details, please see our <a href="refund-policy.html">Refund Policy</a>. To request a cancellation or refund, contact us at contacteudson@gmail.com.</p>
+<p>You can cancel your subscription at any time through your membership management link or customer portal provided via Paystack.</p>
+<p>Refund requests within 14 days of purchase will be processed in accordance with applicable consumer laws and Paystack's processing guidelines. For full details, please see our <a href="refund-policy.html">Refund Policy</a>. To request a cancellation or refund, contact us at contacteudson@gmail.com.</p>
 
 <span class="bold">5. Offline-First, Tokenomics & Data Responsibility</span>
 <p>Since ClockVault is an offline-first vault application, users are solely responsible for backing up their own data. Local token balances (C tokens), daily streak progress, and vault files are stored entirely on your device.</p>
