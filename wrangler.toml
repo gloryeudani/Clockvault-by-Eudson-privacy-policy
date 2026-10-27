@@ -1,5 +1,5 @@
-name = "clockvault"
-compatibility_date = "2025-01-01"
+name = "clockvault-by-eudson-privacy-policy"
+compatibility_date = "2026-01-01"
 
 [assets]
 directory = "./"
