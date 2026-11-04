@@ -1,6 +1,6 @@
 name = "clockvault-by-eudson-privacy-policy"
-compatibility_date = "2026-01-01"
+type = "javascript"
 
 [assets]
-directory = "./"
-not_found_handling = "none"
+directory = "."
+not_found_handling = "single-page"
